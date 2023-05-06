@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Rock Paper Scissors by @Devender</title>
+</head>
+<body>
+    <div class="main__container">
+        <div class="left__hand" style="text-align: left;">
+            <img class="hand__img" id="left__hand" src="rock_left_hand.png" alt="">
+        </div>
+        <div class="scoreboard">
+            <div id="user__label" class="badge">User</div>
+            <div id="computer__label" class="badge">Comp</div>
+            <span id="user__score" style="padding: 5px;">0</span>:<span id="computer__score"  style="padding: 5px;">0</span>
+        </div>
+        <div class="right__hand" style="text-align: right;">
+            <img class="hand__img" id="right__hand" src="paper_right_hand.png" alt="">
+        </div>
+    </div>
+    <center>
+        <div class="choices">
+            <div id="r" class="choice">
+                <img src="rock_left_hand.png" alt="rock">
+            </div>
+            <div id="p" class="choice">
+                <img src="paper_left_hand.png" alt="paper">
+            </div>
+            <div id="s" class="choice">
+                <img src="scissors_right_hand.png" alt="scissors">
+            </div>
+        </div>
+    </center>
+</body>
+<script src="animation.js"></script>
+<script src="main.js"></script>
+</html>
