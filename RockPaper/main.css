@@ -15,7 +15,7 @@ body{
 .hand__img{
     height: 70vh;
     width: 40vw;
-    animation: shake  infinite ;
+    animation: shake  ease-in ;
     animation-duration: 3s;
 
 }  
